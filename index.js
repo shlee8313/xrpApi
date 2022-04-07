@@ -56,6 +56,7 @@ const main = async () => {
     console.log("On ledger Balance", VerifiedResult); //
     console.log("On ledger Balance", VerifiedResult.balanceChanges); // 계정의  변동내역을 보여줌
   }
+  return subscription.created.refs.qr_png;
 };
 
 main();
